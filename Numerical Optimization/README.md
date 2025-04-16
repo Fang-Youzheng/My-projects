@@ -34,31 +34,6 @@ We implemented and tested the following algorithms based on the paper:
 
 They solve subproblems via matrix-free convex quadratic minimization.
 
-### 1. IRWA – Iteratively Reweighted Algorithm
-
-The IRWA algorithm solves a smoothed approximation to the penalized QP:
-
-$$
-\min_{x} \quad \frac{1}{2} x^T H x + g^T x + \sum_i \sqrt{(A_i x + b_i)^2 + \epsilon_i^2}
-$$
-
-- Updates the weight vector \( w_i^{(k)} = \frac{1}{\sqrt{(r_i^{(k)})^2 + \epsilon_i^2}} \)
-- Inner loop solves a **weighted least-squares QP**
-- Outer loop updates \( \epsilon \) to reduce smoothing over time
-
-### 2. ADAL – Alternating Direction Augmented Lagrangian
-
-We also implement ADAL for the problem:
-
-$$
-\min_{x, z} \quad \frac{1}{2} x^T H x + g^T x + \delta(z) \\
-\text{s.t.} \quad A x + b = z
-$$
-
-- Splits primal variable \( x \) from constraints via auxiliary variable \( z \)
-- Uses Lagrangian dual updates and penalty terms to iteratively converge
-- Inner loop solves convex QP with augmented terms
-
 ## Experimental Setup
 
 We evaluated solver performance from the following perspectives:
