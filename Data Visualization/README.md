@@ -47,3 +47,6 @@ These modules provide a comprehensive understanding of institutional investment,
 - **Backend**: Python
 - **Data Processing**: Pandas, NumPy
 - **Visualizing Design**: line charts, scatter plots, bar charts, chord diagrams, and data tables
+
+## Screenshots Preview
+![Section A: Time Trend](./screenshots/sectionA.png)
