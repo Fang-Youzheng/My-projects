@@ -22,8 +22,6 @@ They are widely applied in:
 
 This project explores QP not only as a practical tool but also as a theoretical bridge to advanced optimization concepts (e.g., non-convexity, penalty methods).
 
----
-
 ## 2. Literature Review
 
 We surveyed three major classes of QP solvers:
