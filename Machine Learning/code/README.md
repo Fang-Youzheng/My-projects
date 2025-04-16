@@ -5,8 +5,6 @@ This document describes the core feature engineering pipeline implemented for ou
 
 We designed and extracted features from three perspectives to capture complex behaviors and interactions within the data:
 
----
-
 ## Data Sources
 
 The features were generated from the following CSV files:
@@ -14,8 +12,6 @@ The features were generated from the following CSV files:
 - `user_info_format1.csv`: demographic info (age, gender)
 - `user_log_format1.csv`: full behavioral logs (click, cart, purchase, favorite)
 - `train_format1.csv` / `test_format1.csv`: training & prediction targets
-
----
 
 ## 1. User-level Features
 
@@ -40,8 +36,6 @@ We extracted personalized user-level behavioral features to capture shopping ten
 - Fraction of merchants with whom the user made purchases on multiple days
 - Captures user loyalty tendency
 
----
-
 ## 2. Merchant-level Features
 
 These features describe the merchants' ability to attract and retain users.
@@ -61,8 +55,6 @@ These features describe the merchants' ability to attract and retain users.
 
 ### Merchant Repurchase Rate
 - Proportion of users who made repeat purchases with the merchant
-
----
 
 ## 3. User-Merchant Interaction Features
 
@@ -84,15 +76,11 @@ These features capture the fine-grained relationship between individual users an
 ### User-Merchant Repurchase Flag
 - Binary indicator: whether the user made purchases on multiple days with this merchant
 
----
-
 ## Additional Notes
 
 - **Demographics**: Age and gender are one-hot encoded (with missing values imputed).
 - **Missing Data**: Handled via imputation for `gender`, `age_range`, and `brand_id`.
 - **Join Strategy**: All features are merged back into a unified table using `user_id` and `merchant_id`.
-
----
 
 ## Output
 
