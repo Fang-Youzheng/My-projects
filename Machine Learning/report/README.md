@@ -5,13 +5,6 @@ Report for the final project.
 This directory contains the final report for the course project of **CS182 - Introduction to Machine Learning** at ShanghaiTech University.  
 The project focuses on predicting repeat purchase behavior on the Tmall e-commerce platform using various machine learning models and custom-designed features.
 
-## Overview
-
-- **Title**: Repeat Buyer Prediction for E-Commerce  
-- **Authors**: Youzheng Fang, Tianhao Lin, Yunxuan Yang  
-- **Date**: March 10, 2025  
-- **Objective**: Predict whether a user will make a repeat purchase with a merchant on Tmall.
-
 ## Problem Background
 
 Repeat purchase behavior is vital for e-commerce platforms due to its impact on customer retention and lifetime value.  
