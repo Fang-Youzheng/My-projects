@@ -62,4 +62,4 @@ These modules provide a comprehensive understanding of institutional investment,
 ![Section D: Donut Charts](./screenshots/sectionD.png)
 
 ### Section E: Talent Mobility Network
-![Section E: Chord Diagram](./screenshots./sectionE.png)
+![Section E: Chord Diagram](./screenshots/sectionE.png)
