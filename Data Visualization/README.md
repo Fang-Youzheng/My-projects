@@ -56,7 +56,7 @@ machine-learning-project/
 ├── PPT/                       # Final presentation (PPTX)
 ├── screenshots/               # Visual highlights
 └── README.md                  # Project introduction
-
+```
 
 ## Screenshots Preview
 ### Section A: Technological Trend
