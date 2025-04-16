@@ -57,10 +57,10 @@ $$
 We conducted experiments on synthetically generated QPs to analyze:
 
 ### Parameter Sensitivity
-- **IRWA**: Evaluated \( \eta, \gamma, M_1, M_2 \)
-- **ADAL**: Evaluated \( \mu, \sigma, \sigma'' \)
+- **IRWA**: Evaluated $\( \eta, \gamma, M_1, M_2 \)$
+- **ADAL**: Evaluated $\( \mu, \sigma, \sigma'' \)$
 
-> Insight: Some parameters (e.g., \( \eta \), \( \mu \)) significantly influence convergence, while others (e.g., \( \gamma \)) are less impactful.
+> Insight: Some parameters (e.g., $\( \eta \), \( \mu \)$) significantly influence convergence, while others (e.g., $\( \gamma \)$) are less impactful.
 
 ### Constraint Tolerance
 - Tested convergence under varying termination criteria
