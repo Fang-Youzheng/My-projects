@@ -48,7 +48,7 @@ These modules provide a comprehensive understanding of institutional investment,
 - **Data Processing**: Pandas, NumPy
 - **Visualizing Design**: line charts, scatter plots, bar charts, chord diagrams, and data tables
 
-
+## File Structure
 ```plaintext
 machine-learning-project/
 │
