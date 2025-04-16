@@ -49,4 +49,17 @@ These modules provide a comprehensive understanding of institutional investment,
 - **Visualizing Design**: line charts, scatter plots, bar charts, chord diagrams, and data tables
 
 ## Screenshots Preview
+### Section A: Technological Trend
 ![Section A: Time Trend](./screenshots/sectionA.png)
+
+### Section B: Institutional Clustering
+![Section B: PCA Clustering](./screenshots/sectionB.png)
+
+### Section C: Company Comparison
+![Section C: Institution Bar Chart](./screenshots/sectionC.png)
+
+### Section D: Gender and Team Structure
+![Section D: Donut Charts](./screenshots/sectionD.png)
+
+### Section E: Talent Mobility Network
+![Section E: Chord Diagram](./screenshots./sectionE.png)
