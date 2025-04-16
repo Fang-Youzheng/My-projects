@@ -2,7 +2,7 @@ Report fot the project.
 
 # Final Report – Quadratic Programming: Algorithms and Applications
 
-This document summarizes the final report submitted for the course **Si152 - Numerical Optimization** at ShanghaiTech University.  
+This document summarizes the final report submitted for the course **SI152 - Numerical Optimization** at ShanghaiTech University.  
 The project investigates the formulation, implementation, and empirical evaluation of algorithms for **Quadratic Programming (QP)**, with a focus on IRWA and ADAL methods.
 
 
