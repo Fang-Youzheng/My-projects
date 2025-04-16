@@ -48,6 +48,16 @@ These modules provide a comprehensive understanding of institutional investment,
 - **Data Processing**: Pandas, NumPy
 - **Visualizing Design**: line charts, scatter plots, bar charts, chord diagrams, and data tables
 
+
+```plaintext
+machine-learning-project/
+│
+├── code/                      # Python and D3 source code
+├── PPT/                       # Final presentation (PPTX)
+├── screenshots/               # Visual highlights
+└── README.md                  # Project introduction
+
+
 ## Screenshots Preview
 ### Section A: Technological Trend
 ![Section A: Time Trend](./screenshots/sectionA.png)
