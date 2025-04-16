@@ -38,12 +38,12 @@ We implemented two matrix-free algorithms from Burke et al. (2015):
 
 - Replaces constraints with smoothed distance penalties
 - Updates weights and solves weighted least squares in each iteration
-- Handles infeasible and non-convex cases via eigenvalue correction of \( H \)
+- Handles infeasible and non-convex cases via eigenvalue correction of $H$
 
 ### ADAL – Alternating Direction Augmented Lagrangian
 
-- Reformulates the problem using auxiliary variable \( z \)
-- Uses ADMM-style updates on \( x \), \( z \), and multipliers
+- Reformulates the problem using auxiliary variable $z$
+- Uses ADMM-style updates on $x$, $z$, and multipliers
 - Balances constraint enforcement and smoothness
 
 Both solvers support infeasible cases and automatic convexity correction:
@@ -57,10 +57,10 @@ $$
 We conducted experiments on synthetically generated QPs to analyze:
 
 ### Parameter Sensitivity
-- **IRWA**: Evaluated $\eta, \gamma, M_1, M_2$
-- **ADAL**: Evaluated $\mu, \sigma, \sigma''$
+- **IRWA**: Evaluated $\eta$, $\gamma$, $M_1$, $M_2$
+- **ADAL**: Evaluated $\mu$, $\sigma$, $\sigma''$
 
-> Insight: Some parameters (e.g., $\eta, \mu$) significantly influence convergence, while others (e.g., $\gamma$) are less impactful.
+> Insight: Some parameters (e.g., $\eta$, $\mu$) significantly influence convergence, while others (e.g., $\gamma$) are less impactful.
 
 ### Constraint Tolerance
 - Tested convergence under varying termination criteria
